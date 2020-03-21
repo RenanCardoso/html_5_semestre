@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Listas</title>
+
+    <link rel="stylesheet" href="../atividade-pratica-2/styles.css">
+</head>
+
+<body id="topo">
+    <h1>Exemplo de listas</h1>
+
+    <a href="#links" class="btn btn-gray">Ir para os links</a>
+    <!-- ol = orderlist (lista ordenada) -->
+    <ol>
+        <!-- li = listitem (item da lista) -->
+        <li>Primeiro Item</li>
+        <li>Segundo Item</li>
+        <li>Terceiro Item</li>
+        <li>Quarto Item</li>
+    </ol>
+
+    <!-- ul = lista não ordenada -->
+    <ul>
+        <li>Banana</li>
+        <li>Laranja</li>
+        <li>Limão</li>
+        <li>Manga</li>
+    </ul>
+
+    <!-- dl = para lista de definição -->
+    <dl>
+        <!-- dt = para o termo a ser definido -->
+        <dt>Aqui temos o termo a ser definido 1</dt>
+        <!-- dd = aqui temos a definição -->
+        <dd>Aqui temos a definição 1</dd><br>
+
+        <dt>Aqui temos o termo a ser definido 2</dt>
+        <dd>Aqui temos a definição 2</dd><br>
+
+        <dt>Aqui temos o termo a ser definido 3</dt>
+        <dd>Aqui temos a definição 3</dd><br>
+
+        <dt>Aqui temos o termo a ser definido 4</dt>
+        <dd>Aqui temos a definição 4</dd><br>
+
+        <dt>Aqui temos o termo a ser definido 5</dt>
+        <dd>Aqui temos a definição 5</dd><br>
+
+    </dl>
+
+    <!-- os links internos para ir ao topo, ou rodapé da página funcionam também para ir ao topo ou rodapé de outras páginas -->
+    <p id="links"></a> Página para: <br>
+        <a href="https://globoesporte.globo.com/">    link para o globoesporte - Será aberto na mesma aba </a><br>
+        <a href="http://www.faccamp.br" target="_blank">Site Faccamp - Será aberto em uma nova aba</a>
+        <a href="https://www.uol.com.br/" target="_blank">    link para o UOL - Será aberto em uma nova aba</a><br>
+
+    </p>
+
+    <ul>
+        <!-- se usar o caminho completo da url, caso tenha qualquer alteração na url ele não encontra -->
+        <!-- para uma página que está no mesmo diretorio basta apenas colocar o nome do arquivo -->
+        <li><a href="lista-ordenada.html">Lista ordenada</a><br></li>
+
+        <!-- se o arquivo está em um diretório filho basta colocar da seguinte forma: -->
+        <!-- <li><a href="diretorio_filho /dirfilho.html">Link para exemplo no diretorio filho</a></li> -->
+        <li><a href="diretorio-filho/atividade-pratica2.html">Link para exemplo no diretorio filho - Loja do urso</a></li>
+
+        <!-- se o arquivo está em um diretório pai basta colocar da seguinte forma: -->
+        <li><a href="../exemplo-link.html">Link para exemplo no diretorio pai</a></li>
+        <!-- ele irá voltar um nivel da pasta -->
+
+
+        <li><a href="diretorio-filho/atividade-pratica2.html#topo">Link para Loja do urso - Topo</a></li>
+        <li><a href="diretorio-filho/atividade-pratica2.html#rodape">Link para Loja do urso - Rodapé</a></li>
+
+
+        <li><a href="../outro-diretorio/lista-encadeada.html">Link para exemplo no diretorio questao-2 está no mesmo diretório pai, porém dentro.</a></li>
+
+        <li><a href="mailto:teste@teste.com">Link de E-mail</a></li>
+    </li>
+
+    <!-- a tag antiga para colocar imagens -->
+    <!-- atributo alt é importante para site acessível para cegos, o leitor da tela irá falar o que estiver em alt -->
+    <!-- atributo title é para dar um título a sua imagem -->
+    <!-- atributo width é a largura, atributo height é a altura -->
+    <!-- se definir apenas a largura (width) irá ajustar a altura automaticamente, o mesmo ocorre com a largura -->
+    <img src="../outro-diretorio/kyuubi-e-naruto-wallpaper.jpg" alt="Imagem da Kyuubi e Naruto" title="Imagem Naruto" width="320" height="240">
+
+
+    <br><br><a href="#topo" class="btn btn-gray" class="body">Link para o topo</a>
+
+</body>
+
+</html>

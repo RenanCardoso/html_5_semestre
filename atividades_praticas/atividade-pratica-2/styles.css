@@ -1,0 +1,37 @@
+body {
+    text-align: left;
+}
+
+.btn {  
+    /* se comporta não só como um elemento de linha, um link ou texto. Irá se comportar como um elemento de linha
+     * mas também como um bloco, como um div por exemplo. 
+
+    /* o display inline significa que é um elemento que está em uma linha, ele segue a linha do texto. */
+    display: inline-block; 
+    text-decoration: none;  
+    padding: 10px 10px; 
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+.btn-gray {
+    color: white;
+    background-color: gray;
+    padding: 10px 10px; 
+    border-radius: 100px;
+}
+
+.btn-gray:hover {
+    background-color: rgba(3, 0, 0, 0.582);
+    transition: all .5s ease;
+}
+
+.btn-blue {
+    color: white;
+    background-color: blue;
+}
+
+.btn-blue:hover {
+    background-color: rgba(2, 6, 248, 0.753);
+    transition: all .5s ease;
+}

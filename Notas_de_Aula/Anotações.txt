@@ -1,0 +1,13 @@
+AULA 2
+Atributos HTML são definidos utilizando CSS
+
+id é o identificador único de uma tag.
+
+o <head> é metadado. O metadado é dado sobre dado.
+
+<meta charset="utf-8"> é a codificação de caracteres. Muito importante incluir, pois se um chines abrir a página 
+não irá ficar bom no navegador dele. Evita problemas com acentuação. Tag de definição não precisa fechar. Ex: metatag
+
+
+
+
