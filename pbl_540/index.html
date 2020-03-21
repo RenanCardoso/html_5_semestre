@@ -5,6 +5,73 @@
     <title>Formulário</title>
 </head>
 <body>
+    <form action="" method="post"></form>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+
+        <label>Nome:</label><br>
+        <input type="text" name="nome" size="20" maxlength="120"><br><br>
+
+        <label>Endereço:</label><br>
+        <input type="text" name="endereco" size="20"><br><br>
+
+        <label>Estado:</label><br>
+        <select id="estado" name="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select> <br><br>
+
+        <label>Data de Nascimento:</label><br>
+        <input type="date" name="dtnasc" size="20"><br><br>
+
+        <label>E-mail:</label><br>
+        <input type="email" name="email" maxlength="120" size="20"><br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+
+        <label>Empresa:</label><br>
+        <input type="text" name="empresa" maxlength="240" size="20"><br><br>
+
+        <label>Data de Admissão:</label><br>
+        <input type="date" name="dtadm" size="20"><br><br>
+    </fieldset>
+
+    <p>Anexar Currículo: <br>
+        <input type="file" name="file">
+    </p>
+
+    <p>
+        <input type="submit" name="envia" value="Cadastrar">
+    </p>
+
     
 </body>
 </html>
